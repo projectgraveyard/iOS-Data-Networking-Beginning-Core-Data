@@ -19,6 +19,7 @@
 		97FFF1722422F98D0008D6E0 /* ReminderPrioritySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FFF1712422F98D0008D6E0 /* ReminderPrioritySelectionView.swift */; };
 		97FFF1742422FBE50008D6E0 /* ReminderStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FFF1732422FBE50008D6E0 /* ReminderStatusView.swift */; };
 		97FFF1762422FC0A0008D6E0 /* ReminderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FFF1752422FC0A0008D6E0 /* ReminderRow.swift */; };
+		F2218C2B26DD840300A41969 /* Reminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2218C2926DD840300A41969 /* Reminders.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		97FFF1712422F98D0008D6E0 /* ReminderPrioritySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderPrioritySelectionView.swift; sourceTree = "<group>"; };
 		97FFF1732422FBE50008D6E0 /* ReminderStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatusView.swift; sourceTree = "<group>"; };
 		97FFF1752422FC0A0008D6E0 /* ReminderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRow.swift; sourceTree = "<group>"; };
+		F2218C2A26DD840300A41969 /* Reminders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reminders.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				18D775C822AD944400AE281E /* Preview Content */,
+				F2218C2926DD840300A41969 /* Reminders.xcdatamodeld */,
 			);
 			path = "Reminders-SwiftUI";
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				97FFF1742422FBE50008D6E0 /* ReminderStatusView.swift in Sources */,
 				97FFF1702422F9290008D6E0 /* CreateReminderView.swift in Sources */,
 				18D775C122AD944300AE281E /* AppDelegate.swift in Sources */,
+				F2218C2B26DD840300A41969 /* Reminders.xcdatamodeld in Sources */,
 				97FFF1722422F98D0008D6E0 /* ReminderPrioritySelectionView.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
 				97FFF14C2422F7BC0008D6E0 /* RemindersView.swift in Sources */,
@@ -384,6 +388,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2218C2926DD840300A41969 /* Reminders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2218C2A26DD840300A41969 /* Reminders.xcdatamodel */,
+			);
+			currentVersion = F2218C2A26DD840300A41969 /* Reminders.xcdatamodel */;
+			path = Reminders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18D775B522AD944300AE281E /* Project object */;
 }
